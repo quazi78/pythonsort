@@ -8,7 +8,7 @@ class Sortstuff(object):
     if len <= 1:
       return x
 
-#iterate over the list and move items if they are out of place
+#iterate over the list and move items if they are out of order 
     swapped = True
 
     while swapped == True:
