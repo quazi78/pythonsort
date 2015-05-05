@@ -18,3 +18,8 @@ class SortTest(unittest.TestCase):
     sort = Sortstuff()
     result = sort.sortlist([1])
     self.assertEqual([1], result)
+
+  def test_sort_returns_empty_list(self):
+    sort = Sortstuff()
+    result = sort.sortlist([])
+    self.assertEqual([],result)
