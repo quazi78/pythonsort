@@ -28,4 +28,4 @@ class SortTest(unittest.TestCase):
   def test_sort_raises_type_error(self):
     sort = Sortstuff()
     result = sort.sortlist([True,'fish'])
-    assertRaises(TypeError)
+    self.assertRaises(TypeError)
